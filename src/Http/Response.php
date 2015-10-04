@@ -32,7 +32,7 @@ class Response extends Nette\Object implements IResponse
 	public $cookieHttpOnly = TRUE;
 
 	/** @var bool Whether warn on possible problem with data in output buffer */
-	public $warnOnBuffer = TRUE;
+	public $warnOnBuffer = FALSE;
 
 	/** @var int HTTP response code */
 	private $code = self::S200_OK;
